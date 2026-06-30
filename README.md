@@ -1,12 +1,10 @@
 <p align="center">
   <img src="frontend/public/peerprep.svg" width="320" alt="PeerPrep Logo" />
 </p>
-<h1 align="center">PeerPrep v2.0</h1>
+<h1 align="center">PeerPrep </h1>
 <p align="center">PeerPrep is a collaborative coding platform for you to practise coding interviews. <br/>Match with a partner and start coding with them now!</p>
 
----
 
-This project was developed under CS3219 module by [Group 38](#development-team)
 
 Table of Contents
 ===
