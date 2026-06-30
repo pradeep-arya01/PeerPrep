@@ -1,0 +1,19 @@
+# Eksctl creation config
+# Reference: https://towardsdatascience.com/kubernetes-application-deployment-with-aws-eks-and-ecr-4600e11b2d3c
+
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+metadata:
+  name: peerprep-cluster
+  region: ap-southeast-1
+
+vpc:
+  nat:
+    gateway: Disable
+
+nodeGroups:
+  - name: peerprep-workers
+    instanceType: t2.micro
+    desiredCapacity: 4
+    minSize: 1
+    maxSize: 8
